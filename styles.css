@@ -1,5 +1,8 @@
-h1 {
-    color: chocolate;
+.name {
+    color: #ff9e58;
+}
+.company {
+    color: #844bf7;
 }
 .profile-img {
     height: 300px;
@@ -7,7 +10,8 @@ h1 {
     border-radius: 50%;
     object-position: center;
     object-fit: cover;
-    border: 1px solid #818181;
+    border: 2px solid #7ad1da;
+    border-style: dashed;
 }
 .flex-align-content {
     display: flex; 
@@ -25,11 +29,12 @@ table, td, th {
   }
   
   thead {
-    background-color: #ecffd4;
+    background-color: #e998ac;
   }
   table {
     border-collapse: collapse;
     width: 30%;
+    background-color: #fff;
   }
   
   th, td {
@@ -37,4 +42,24 @@ table, td, th {
   }
 .dot-line {
     border-style: dotted;
+}
+.section1 {
+    background-color: #FFCFDF;
+    padding: 20px;
+}
+.section2 {
+    background-color: #DCD6F7;
+    padding: 20px;
+}
+.section3 {
+    background-color: #FCE38A;
+    padding: 20px;
+}
+.text-custom1 {
+    font-weight: bold;
+    color: darkviolet;
+    margin: 20px;
+}
+a {
+    color: #d83c63;
 }
