@@ -1,0 +1,40 @@
+h1 {
+    color: chocolate;
+}
+.profile-img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    object-position: center;
+    object-fit: cover;
+    border: 1px solid #818181;
+}
+.flex-align-content {
+    display: flex; 
+    align-content: start;
+}
+.profile-img-block {
+    margin-right: 20px;
+}
+.profile-block {
+    margin: 20px;
+}
+table, td, th {  
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  thead {
+    background-color: #ecffd4;
+  }
+  table {
+    border-collapse: collapse;
+    width: 30%;
+  }
+  
+  th, td {
+    padding: 15px;
+  }
+.dot-line {
+    border-style: dotted;
+}
